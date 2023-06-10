@@ -1,0 +1,591 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686330706386227, "dur": 1230825, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330706386465, "dur": 4181, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330706390648, "dur": 47843, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330706438493, "dur": 614358, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330707052853, "dur": 550580, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330707603435, "dur": 13616, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330707617396, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686330706879573, "dur": 154507, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686330706880967, "dur": 49619, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686330707017308, "dur": 5136, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686330707022449, "dur": 11625, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686330707023275, "dur": 10283, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686330707038562, "dur": 1267, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686330707037762, "dur": 2089, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330707617467, "dur": 130, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686330707101577, "dur":3065, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707104654, "dur":109, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686330707104804, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686330707104825, "dur":261, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686330707105110, "dur":830, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707105940, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707573979, "dur":166, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574145, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574176, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574180, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574188, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574190, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574197, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574199, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574204, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574207, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574213, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574215, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574222, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574224, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574232, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574234, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574240, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574251, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707574278, "dur":1290, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686330707105502, "dur":449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707105953, "dur":3766, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707109731, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686330707109738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707110277, "dur":483, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686330707110766, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686330707110790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707111226, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686330707113851, "dur":11637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686330707125493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707125504, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686330707126733, "dur":7974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686330707134715, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707134725, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686330707137555, "dur":55095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707192656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707192664, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707194231, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707194400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707194406, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707195299, "dur":40060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707235366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707235376, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707236270, "dur":33758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707270034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707270045, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707270753, "dur":42204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707312960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707312968, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707313611, "dur":29225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707342855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707342861, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707344984, "dur":29547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707374534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707374539, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707375451, "dur":26845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707402323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707402331, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707402965, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707403134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707403140, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707403830, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707403963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707403969, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707404538, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707404926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707404932, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707405663, "dur":599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707406265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707406271, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707407199, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707407393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707407400, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707408161, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707408401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707408407, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707409068, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707409526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707409533, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707410647, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707410760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707410768, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707411604, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707411735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707411741, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707412275, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707412394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707412401, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707414496, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707414678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707414683, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707415938, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707416047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707416055, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707416652, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707416751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707416756, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707417722, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707417880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707417888, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707420312, "dur":91694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707512018, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686330707512034, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686330707513281, "dur":60721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707105633, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707105957, "dur":3870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707109828, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686330707109954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707111254, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686330707113979, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686330707114108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707114147, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686330707117072, "dur":9961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686330707127036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707127042, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686330707128317, "dur":35528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707163851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707164977, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707165810, "dur":61207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707227020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707227027, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707228067, "dur":29709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707257782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707257789, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707258698, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707258846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707258873, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707260558, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707260708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707260715, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707261332, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707261623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707261629, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707262290, "dur":26561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707288862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707288870, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707289817, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707289958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707289964, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707290648, "dur":30117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707320770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707320776, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707323528, "dur":31798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707355332, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707355342, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707356182, "dur":43967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707400152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707400158, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707402222, "dur":171223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707573449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686330707573456, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686330707573956, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1686330707573957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707106042, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707106042, "dur":3712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707109754, "dur":13812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686330707123569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707123595, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686330707124457, "dur":39579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707164039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707164074, "dur":6151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707170313, "dur":26807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707197149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707197156, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707198874, "dur":46582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707245460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707245469, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707246240, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707246402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707246409, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707246975, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707247137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707247143, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707247858, "dur":1365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707249227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707249242, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707250857, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707251234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707251243, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707252181, "dur":28294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707280502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707280511, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707281189, "dur":30196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707311394, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707311405, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707312388, "dur":29989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707342380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707342387, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707343327, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707343596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707343601, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707344238, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707344372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707344379, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707345055, "dur":96472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707441530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707441534, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707445981, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707446278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707446284, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707446986, "dur":1656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707448648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707448656, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707451080, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707451291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707451296, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707453865, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707454460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707454464, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707455678, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707455797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707455803, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707456560, "dur":3045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707459608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707459615, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707463143, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707463478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707463483, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707465842, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707465962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707465974, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686330707468824, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686330707468843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707468859, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686330707469911, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686330707469932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686330707469936, "dur":66253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686330707536201, "dur":37788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707105786, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707105981, "dur":3742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707109731, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686330707109889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707111379, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686330707114058, "dur":11436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686330707125497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707125504, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686330707126447, "dur":70966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707197416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707197420, "dur":29240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707226722, "dur":40589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707267318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707267326, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707268158, "dur":50437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707318605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707318621, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707319592, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707319836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707319840, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707321304, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707321576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707321584, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707322332, "dur":46297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707368635, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707368645, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707370095, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707370260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707370268, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707372835, "dur":26953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707399794, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707399803, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707401377, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707401692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707401700, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707403050, "dur":36803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707439856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707439861, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707440803, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707440946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707440951, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707441742, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707441878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707441882, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707442529, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707442778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707442801, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707443675, "dur":3325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707447004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707447009, "dur":3035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707450065, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707450240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707450249, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707450981, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707451191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707451214, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707452359, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707452590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707452594, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707453778, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707453916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707453924, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707454478, "dur":2500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707456982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707457007, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707459472, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707459678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707459683, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707461023, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707462023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707462029, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707462967, "dur":4977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707467946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707467952, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686330707471989, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686330707472014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707472020, "dur":7365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686330707479415, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686330707479443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707479456, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686330707481312, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1686330707481455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707481466, "dur":6938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1686330707488448, "dur":2486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1686330707490937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707490944, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1686330707492182, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686330707492196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707492200, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686330707492833, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1686330707492848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707492852, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1686330707493429, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1686330707493451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707493455, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1686330707494792, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1686330707494915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686330707494920, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1686330707495647, "dur":78334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707105932, "dur":55, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707105988, "dur":3786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707109775, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686330707110059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707111126, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686330707114295, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686330707114397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707114428, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686330707115473, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686330707115603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707115994, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686330707116994, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686330707117130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707117189, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686330707118896, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686330707119032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707119054, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686330707120386, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1686330707120528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707120535, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1686330707121592, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1686330707121736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707121742, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1686330707123320, "dur":2343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707125665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707125884, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707126989, "dur":47597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686330707174589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707174593, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686330707176171, "dur":62625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707238806, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707238815, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707240802, "dur":100981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707341794, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707342042, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707343556, "dur":30891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707374452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707374460, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707375715, "dur":35310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707411029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707411034, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707412143, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707412256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707412261, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707412762, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707412856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707412861, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707413666, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707413876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707413901, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707414447, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707414548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707414553, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707415200, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707415313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707415318, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707415954, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707416057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707416064, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707417015, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707417939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707417943, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707419527, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707419646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707419653, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707420332, "dur":46432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707466767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707466772, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686330707468127, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1686330707468537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707468657, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1686330707469210, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686330707469228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707469232, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686330707472463, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1686330707472483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707472489, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1686330707477710, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686330707477732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707477741, "dur":12626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686330707490393, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/resources.resource" }}
+,{ "pid":12345, "tid":5, "ts":1686330707490413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707490420, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/resources.resource" }}
+,{ "pid":12345, "tid":5, "ts":1686330707491904, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686330707491925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707491931, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686330707492969, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1686330707492983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707492987, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1686330707493695, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686330707493715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707493721, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1686330707494329, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1686330707494343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686330707494348, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1686330707494959, "dur":79019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707106151, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707106152, "dur":3568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707109731, "dur":46793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686330707156530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707157356, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686330707159504, "dur":70457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707229967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707229975, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707230680, "dur":30497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707261181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707261188, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707262059, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707262228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707262234, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707262977, "dur":76502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707339483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707339489, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707342370, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707342535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707342540, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707343755, "dur":28192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707371958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707371966, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707373285, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707374916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707374921, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707377226, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707377520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707377528, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707378249, "dur":57973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707436228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707436236, "dur":698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707436954, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707437457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707437465, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707438431, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707438622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707438629, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707439466, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707439580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707439586, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707440965, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707441102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707441107, "dur":3056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707444178, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707444308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707444314, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707446477, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707446912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707446919, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707451592, "dur":983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707452578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707452584, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707454440, "dur":2699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707457142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707457147, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707459697, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707460071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707460076, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707462921, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707463097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707463103, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707465607, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707465992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707465997, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707467935, "dur":40682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707508625, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686330707509238, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686330707510208, "dur":63768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707106424, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707106425, "dur":3329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707109755, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686330707110046, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707111116, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686330707116248, "dur":10031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686330707126284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707126292, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686330707127086, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1686330707127203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707127327, "dur":8617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1686330707136038, "dur":38334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707174377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707174427, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707175095, "dur":66124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707241224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707241261, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707244733, "dur":57860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707302601, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707302613, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707304375, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707304525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707304532, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707305138, "dur":31345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707336490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707336499, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707338905, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707339095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707339102, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707339891, "dur":34920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707374814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707374844, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707376002, "dur":40754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707416759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707416765, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707419647, "dur":1170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707420821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707420837, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707421825, "dur":112899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707534736, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686330707534752, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686330707536015, "dur":37981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707106275, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707106275, "dur":3499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707109774, "dur":15811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686330707125590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707125597, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686330707127149, "dur":103453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707230605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707230611, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707232812, "dur":84151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707316995, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707317006, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707319414, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707319657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707319665, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707320970, "dur":32084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707353062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707353071, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707354004, "dur":39967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707393978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707393986, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707394794, "dur":36727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707431526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707431535, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707432702, "dur":114915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707547622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686330707547629, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Yaptm Oyunlar/GreenTale_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686330707548287, "dur":25694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686330707576576, "dur":2143, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686330707617634, "dur": 606, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686330707617376, "dur": 881, "ph": "X", "name": "Write chrome-trace events", "args": {} },
